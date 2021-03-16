@@ -1,0 +1,13 @@
+{
+    "name": "nodockernetes",
+    "version": "1.0.0",
+    "description": "Sample Node.js Docker K8S Application",
+    "author": "Pavel Tugolukov <macfirellon@gmail.com>",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.16.1"
+    }
+  }
