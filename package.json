@@ -8,7 +8,9 @@
     "scripts": {
       "start": "node server.js",
       "docker:build": "docker build -t firellon/nodockernetes .",
-      "docker:start": "docker run -p 49160:8080 -d firellon/nodockernetes"
+      "docker:build:kubernetes": "docker build -t gcr.io/nodockernetes/nodockernetes .",
+      "docker:start": "docker run -p 49160:8080 -d firellon/nodockernetes",
+      "docker:push:kubernetes": "docker push gcr.io/nodockernetes/nodockernetes"
     },
     "dependencies": {
       "express": "^4.16.1"
