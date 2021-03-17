@@ -6,6 +6,7 @@
   "author": "Pavel Tugolukov <macfirellon@gmail.com>",
   "main": "server.js",
   "scripts": {
+    "lint": "tslint 'src/**/*.ts?(x)'",
     "build": "tsc",
     "build:watch": "tsc --watch",
     "start": "tsc && node dist/server.js",
