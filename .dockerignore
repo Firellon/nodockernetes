@@ -1,0 +1,15 @@
+# Do not use this file to mass-ADD folders in the Dockerfile
+# This file should only be used to reduce the amount of junk sent to the Docker Daemon
+
+.circleci
+.DS_Store
+.env
+.env.test
+.github
+.vscode
+coverage
+dist
+node_modules
+npm-debug.log
+package-lock.json
+yarn-error.log
